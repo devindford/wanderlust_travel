@@ -440,9 +440,16 @@ button:focus {
     top: initial;
     bottom: 0;
     z-index: 3;
+    border-top: #fff 2px solid;
+    width: 100vw;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
   .main-head a {
     border-bottom: 2px #fff solid;
+  }
+  footer {
+    margin-bottom: 85px;
   }
   .card {
     -ms-flex-preferred-size: 50rem;
